@@ -1,0 +1,39 @@
+/* Write your code here. */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.image-view-container {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+image-view {
+  height: 250px;
+  width: 275px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.description {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.thumbnail-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
